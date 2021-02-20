@@ -1,0 +1,6 @@
+[Unit]
+Description=Run the server-monitor
+Wants=server-monitor.timer
+[Service]
+User=htpc
+ExecStart=/home/htpc/Projects/server-monitor/bin/monitor.sh

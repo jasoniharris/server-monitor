@@ -1,0 +1,8 @@
+[Unit]
+Description=Execute service based on timer
+[Timer]
+OnBootSec=600
+OnUnitActiveSec=600
+AccuracySec=1ms
+[Install]
+WantedBy=timers.target
