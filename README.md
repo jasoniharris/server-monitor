@@ -1,5 +1,6 @@
 # server-monitor
 Monitor resource consumption of Linux based server
+
 ## Description
 This is a simple BASH utility which is designed to collect performance stats from your system. This includes:
 * 1/ CPU average
@@ -33,8 +34,9 @@ https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/create_dashboard.
 
 Once completed, you can add new widgets to your dashboard. I suggest using Line graphs to start with. You can find the metrics published by this utility under Custom Namespaces > Custom 
 
-# Alerting
-This is a feature in-progress. Alerting will be handled via Amazon SNS to send an email to a registered address initally. This will be expanded to PagerDuty or Pushover which is an existing stack used by my other projects. Alert flags will be added to the logic to enable you to drive the alerting and on/off from this utility.
+# Features
+Track features here:
+[TODO](TODO.md)
 
 # A word on AI/ ML
 You can enable anomoly detection via Amazon CloudWatch if you are so inclined: https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Anomaly_Detection.html
