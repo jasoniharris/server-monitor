@@ -1,4 +1,5 @@
 #!/bin/bash
 
 cd ../
-scp -r bin conf htpc@192.168.1.123:/home/htpc/Projects/server-monitor
+scp -r bin conf htpc@htpc:/home/htpc/Projects/server-monitor
+scp service-monitor.service service-monitor.timer htpc@htpc:/etc/systemd/system
